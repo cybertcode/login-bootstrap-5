@@ -1,0 +1,42 @@
+:root{
+    --dark:#16191c;
+    --dark-x:#1e2126;
+    --light:#ffffff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+.logo{
+
+    height: 70px;;
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color:var(--dark-x) ;
+}
+.form-control, .btn{
+    min-height: 2.8rem;
+    line-height: initial;
+
+}
+.img-1{
+    background-image: url(/img/pc1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url(/img/pc2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-3{
+    background-image: url(/img/pc3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
